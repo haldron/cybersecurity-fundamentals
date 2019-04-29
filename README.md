@@ -1,11 +1,11 @@
-# cybersecurity-fundamentals
+## cybersecurity-fundamentals
 Collection of projects and course files for learning cybersecurity
 
-## workshops
-Contains summary of the labs
+### workshops
+Contains useful snippets from labs
 
-## assignments
-Contains assignments done for the course
+### assignments
+Contains challenges for different topics
 
-## useful-resources
+### useful-resources
 Contains resources for course and certifications
