@@ -17,7 +17,7 @@ decrypto(filename)
 ```
 
 The decrypted image that resulted was -
-![Decrypted](decrypted.png)
+![Decrypted](./decrypted.png)
 
 It seems to be be a fast yet simple algorithm for symmetric key encryption, as long as the key is kept secret. However with brute forcing the key I think it is easy to see all output resulting decrypting images and possible to see the encrypted message or file.
 
@@ -92,7 +92,7 @@ After I opened the original encrypted image file in hexeditor, I noticed there i
 
 
 After the hints on discussion forucms I tried to see what happens if I replace the header with an unencrypted header from a different image given in the workshop. It opened the image and also confirmed that only the header is encrypted with CBC. After another hint I replaced the header with header of a random 16-bit color bitmap image of the 1024x768 screen resolution hint given in the file name. This revealed the message when I opened the picture -
-![Header](header.png)
+![Header](./header.png)
 
 It seems the hidden message is one word CYBER.
 
@@ -102,7 +102,7 @@ The following website was used to do the frequency analysis on the letters and s
 https://crypto.interactive-maths.com/frequency-analysis-breaking-the-code.html
 
 Here is a screenshot of the website - 
-![Frequency Screenshot](frequency_screenshot.png)
+![Frequency Screenshot](./frequency_screenshot.png)
 
 After trying out and guessing some words I put that in the Google Search Engine and got the original passage from Chapter I of the Book - A Tale of Two Cities 
 https://en.wikiquote.org/wiki/A_Tale_of_Two_Cities
@@ -110,7 +110,7 @@ As seen in the screenshot, the original plaintext must be something like this  -
 it was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of light, it was the season of darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us, we were all going direct to heaven, we were all going direct the other way - in short, the period was so far like the present period, that some of its noisiest authorities insisted on its being received, for good or for evil, in the superlative degree of comparison only.
 
 I couldn't find any pattern used for encryption so the key must be something like this -
-![Key](key.png)
+![Key](./key.png)
 
 
 ### Answer 5
