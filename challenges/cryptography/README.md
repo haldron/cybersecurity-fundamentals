@@ -101,7 +101,7 @@ The following website was used to do the frequency analysis on the letters and s
 https://crypto.interactive-maths.com/frequency-analysis-breaking-the-code.html
 
 Here is a screenshot of the website - 
-![Frequency Screenshot](frequency_screenshot.png?raw=true "Frequency Screenshot")
+![Frequency Screenshot](challenges/cryptography/frequency_screenshot.png?raw=true "Frequency Screenshot")
 
 After trying out and guessing some words I put that in the Google Search Engine and got the original passage from Chapter I of the Book - A Tale of Two Cities 
 https://en.wikiquote.org/wiki/A_Tale_of_Two_Cities
