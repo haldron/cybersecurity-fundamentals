@@ -41,15 +41,15 @@ After inspecting the code in q6.c, I saw that the value of the environment varia
 I followed all the steps of the workshop for checking stack frame and injecting shell code. Once it worked in gdb , I changed the path and ran it in the terminal of the machine and then opened the secret file because I got shell through q7 program which has access to the secret file. 
 
 Given below is first screenshot of gdb running the shell code as user a1745936 and then terminal running shell code as q7 and displaying the secret. 
-![gdb](gdb.png)
-![shell](shell.png)
+![gdb](gdb.png?raw=true "gdb")
+![shell](shell.png?raw=true "shell")
 
 ### Answer 8
 
 I experimented around and tried to understand what is to be done, similar to the provided video.
 After using objdump to find the address of flag2, I used that address to create the payload to be passed as argv[1] in the code
-![objdump](objdump.png)
-![pad](pad.png)
+![objdump](objdump.png?raw=true "objdump")
+![pad](pad.png?raw=true "pad")
   
 ```
 # ./q8 $(python -c "print 'A'*8 +'\x34\xa0\x04\x08' + '%08x.'*138 + 'B'*45")

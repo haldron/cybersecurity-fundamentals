@@ -51,7 +51,7 @@ ISC BIND with version 9.9.4
 
 ### Answer 2 
 Based on the advanced full Nessus scan on 10.0.0.21 given in screenshot below -
-![Nessus Screenshot](nessus.png)
+![Nessus Screenshot](nessus.png?raw=true "nessus")
 
 Multiple critical vulnerabilities were explored and it was tried to get a screenshot using a remote shell into the server using telnet and netcat. However none worked as its not possible to install software on the server to take a screenshot. One of the critical vulnerabilities in VNC having a simple password ‘password’ allowed to take a screenshot -
 
@@ -77,7 +77,7 @@ Hosts currently online on the same network were discovered using the nmap comman
 Some of these hosts were used as decoys - 10.8.0.16, 10.8.0.5, 10.8.0.9
 
 The following wireshark screenshot shows spoof packets from 3 other ips along with original ip of my own computer -
-![Decoys in Wireshark](decoy_wireshark.png)
+![Decoys in Wireshark](decoy_wireshark.png?raw=true "Decoys in Wireshark")
 
 While this can be defeated through router path tracing, response-dropping, and other active mechanisms, it is generally an effective technique for hiding IP address for a black hat hacker.
 With -D option it appears to the remote host that the host(s) we specify as decoys are scanning the target network too, as we can see in wireshark. Thus their intruder detection system might report 5-10 port scans from unique IP addresses, but they won’t know which IP was scanning them and which were innocent decoys. 
@@ -92,7 +92,7 @@ The command used for all flags was -
 ```
 If we do the ALL flags option with nmap, it gives 8 flags set to 1.
 Screenshot with all flags in Wireshark -
-![All Flags in Wireshark](all_flags.png)
+![All Flags in Wireshark](all_flags.png?raw=true "All Flags in Wireshark")
 
 ### Answer 5
 The command used to find the network service between the range 20000 and 60000 on 10.0.0.35 was -
