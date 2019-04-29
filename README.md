@@ -4,7 +4,7 @@ Collection of projects and course files for learning cybersecurity
 ### workshops
 Contains useful snippets from labs
 
-### assignments
+### challenges
 Contains challenges for different topics
 
 ### useful-resources

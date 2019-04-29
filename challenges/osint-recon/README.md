@@ -286,9 +286,7 @@ xxx.adelaide.edu.au at address 129.127.102.4
 ```
 
 ### Answer 5:
-Using Wayback machine http://web.archive.org for seeing Access Adelaide on September 13 2009 -
-
-Current state -
+Used Wayback machine http://web.archive.org for seeing Access Adelaide on September 13 2009
 
 The login pages look almost the same except for some small link differences and page information. As we can see the current access adelaide has a major maintenance outage notice aside the login component.
 
